@@ -1,17 +1,24 @@
 body{
     background-color: rgb(112, 142, 153);
+    font-family:'Sans-serif';
+    font-size: 26px;
+
 }
-img{width: 700px;}
+img{width: 550px;}
+img{width: 700px;
+    max-width:center;
+    margin: 3 auto;
+    display: block;
+}
+
+
 header{
     /* cor de fundo*/
     background-color: rgb(22, 62, 78);
-    /*cor de texto*/
-    color: rgb(240, 248, 248);
-    /*alinhamento do texto*/
     text-align: center;
     /*preenchimento*/
     padding: 5px; 
-    
+
 }
 footer{background-color: rgb(22, 62, 78);
         color: rgb(240, 248, 248);
@@ -33,4 +40,11 @@ footer{background-color: rgb(22, 62, 78);
 .imagem{
     flex: 2;
     text-align: center;
+    
+}
+    a:hover{
+        color: rgb(94, 93, 163); 
+}
+a{
+    transition: color 0.3s ease;
 }
