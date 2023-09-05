@@ -1,50 +1,97 @@
-body{
+*{
+    margin: 1%;
+}
+
+
+body {
     background-color: rgb(112, 142, 153);
-    font-family:'Sans-serif';
+    font-family: 'Sans-serif';
     font-size: 26px;
 
 }
-img{width: 550px;}
-img{width: 700px;
-    max-width:center;
+
+img {
+    width: 550px;
+}
+
+img {
+    width: 700px;
+    max-width: center;
     margin: 3 auto;
     display: block;
 }
 
 
-header{
+header {
     /* cor de fundo*/
     background-color: rgb(22, 62, 78);
     text-align: center;
     /*preenchimento*/
-    padding: 5px; 
+    padding: 5px;
 
 }
-footer{background-color: rgb(22, 62, 78);
-        color: rgb(240, 248, 248);
-        text-align: center;
-        padding: 2px;
+
+footer {
+    background-color: rgb(22, 62, 78);
+    color: rgb(240, 248, 248);
+    text-align: center;
+    padding: 2px;
 
 
 }
-.container{
+
+.container {
     display: flex;
     border-style: outset;
     border-color: black;
 
 }
-.texto{
-    flex:1;
+
+.texto {
+    flex: 1;
     padding: 5%;
 }
-.imagem{
+
+.imagem {
     flex: 2;
     text-align: center;
-    
+
 }
-    a:hover{
-        color: rgb(94, 93, 163); 
+
+a:hover {
+    color: rgb(46, 81, 133);
 }
-a{
+
+a {
     transition: color 0.3s ease;
 }
+
+nav{
+    background-color: rgb(112, 142, 153);
+    text-align: center;
+
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+ nav li {
+    display: inline;
+    margin-right: 70px;
+ }
+ nav a{
+    text-decoration: none;
+    color: rgb(24, 80, 97);
+    font-weight:bold;
+    font-size: 25px;
+
+ }  
+
+  nav a:hover{ 
+      color: rgba(14, 84, 146, 0.651);
+  }
+
+  p a{
+    color: rgb(24, 80, 97);
+    font-weight: bold;
+  }
