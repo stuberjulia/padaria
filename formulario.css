@@ -1,0 +1,37 @@
+h2 {
+    font-size: 30px;
+    margin-top: 30px;
+    color: rgba(14, 84, 146, 0.651);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+input[type='text'],
+input[type="email"],
+input[type="password"] {
+    width: 15%;
+    padding: 10px;
+    border: 1px solid #097074ab;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: rgba(46, 124, 189, 0.829);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0, 3s;
+}
